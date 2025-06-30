@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-mountain"></i>
+                <span>Furniro</span>
+            </div>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Product</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="nav-icons">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+         </div>
+        </div>
+    </header>
+    <section class="about-hero">
+        <h1>About Us</h1>
+        <div class="breadcrumb">
+            <span>Home</span>
+            <span class="divider">&gt;</span>
+            <span>About Us</span>
+        </div>
+    </section>
+    <div class="register-container">
+        <div class="register-image">
+            <img src="../imgs-CMA/product3.jpg" alt="Register Visual">
+        </div>
+        <form class="register-form">
+            <h2>Register</h2>
+            <input type="text" placeholder="Customer Name" required>
+            <input type="email" placeholder="Customer Email" required>
+            <input type="date" placeholder="Customer DOB" required>
+            <input type="tel" placeholder="Customer Phone" required>
+            <input type="text" placeholder="Customer Address" required>
+            <input type="password" placeholder="Customer Password" required>
+            <div class="file-row">
+                <label class="file-label">
+                    <input type="file" style="display:none;">
+                    <span class="choose-file-btn">Choose File</span>
+                </label>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="cancel-btn">Cancel</button>
+                <button type="submit" class="register-btn">Register</button>
+            </div>
+            <p class="signin-link">Already have an account? <a href="#">Sign in</a>.</p>
+        </form>
+    </div>
+    <footer>
+        <div class="footer-main">
+            <div class="footer-col">
+                <h3>Funiro.</h3>
+                <p>400 University Drive Suite 200<br>
+                Coral Gables,<br>
+                FL 33134 USA</p>
+            </div>
+            <div class="footer-col">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Care</h4>
+                <ul>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Payment Information</h4>
+                <div class="payment-icons">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <i class="fa-brands fa-cc-visa"></i>
+                    <i class="fa-brands fa-cc-mastercard"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <hr>
+            <p>2025 furniture Shop. Design By O-Technique Myanmar</p>
+        </div>
+    </footer>
+</body>
+</html>
